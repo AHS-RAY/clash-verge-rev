@@ -8,6 +8,31 @@
         "update": "Update"
       }
     },
+    "quickRule": {
+      "trigger": "Quick Rule",
+      "title": "Quick Rule",
+      "description": "Add a proxy or direct rule for a domain or IP. Rules are written to prepend-rules in the global Merge config and take precedence over subscription rules.",
+      "form": {
+        "target": "Domain or IP",
+        "targetPlaceholder": "example.com or 1.2.3.4",
+        "proxy": "Use proxy",
+        "direct": "Direct",
+        "proxyGroup": "Proxy group"
+      },
+      "actions": {
+        "add": "Add rule"
+      },
+      "list": {
+        "title": "Quick rules",
+        "empty": "No quick rules yet"
+      },
+      "feedback": {
+        "invalidTarget": "Enter a valid domain or IP",
+        "duplicate": "This rule already exists",
+        "saved": "Quick rules updated",
+        "parseFailed": "Cannot read the global Merge config. Fix it before adding rules."
+      }
+    },
     "title": "Rules"
   },
   "feedback": {

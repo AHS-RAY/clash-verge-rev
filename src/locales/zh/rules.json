@@ -8,6 +8,31 @@
         "update": "更新"
       }
     },
+    "quickRule": {
+      "trigger": "快速规则",
+      "title": "快速规则",
+      "description": "为域名或 IP 一键添加使用代理或直连的规则。规则写入全局扩展覆写配置（Merge）的 prepend-rules，优先于订阅规则生效。",
+      "form": {
+        "target": "域名或 IP",
+        "targetPlaceholder": "example.com 或 1.2.3.4",
+        "proxy": "使用代理",
+        "direct": "不使用代理",
+        "proxyGroup": "代理组"
+      },
+      "actions": {
+        "add": "添加规则"
+      },
+      "list": {
+        "title": "已添加的规则",
+        "empty": "暂无快速规则"
+      },
+      "feedback": {
+        "invalidTarget": "请输入有效的域名或 IP",
+        "duplicate": "该规则已存在",
+        "saved": "快速规则已更新",
+        "parseFailed": "无法读取全局扩展覆写配置（Merge），请先修复后再添加规则"
+      }
+    },
     "title": "规则"
   },
   "feedback": {

@@ -687,6 +687,31 @@ export interface TranslationResources {
           dialogTitle: string
           trigger: string
         }
+        quickRule: {
+          actions: {
+            add: string
+          }
+          description: string
+          feedback: {
+            duplicate: string
+            invalidTarget: string
+            parseFailed: string
+            saved: string
+          }
+          form: {
+            direct: string
+            proxy: string
+            proxyGroup: string
+            target: string
+            targetPlaceholder: string
+          }
+          list: {
+            empty: string
+            title: string
+          }
+          title: string
+          trigger: string
+        }
         title: string
       }
     }

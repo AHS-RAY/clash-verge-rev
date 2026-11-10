@@ -11,6 +11,7 @@ import {
 } from '@/components/base'
 import { ScrollTopButton } from '@/components/layout/scroll-top-button'
 import { ProviderButton } from '@/components/rule/provider-button'
+import { QuickRuleButton } from '@/components/rule/quick-rule-button'
 import RuleItem from '@/components/rule/rule-item'
 import { usePageSearch } from '@/hooks/use-page-search'
 import { useVisibility } from '@/hooks/use-visibility'
@@ -63,6 +64,7 @@ const RulesPage = () => {
       }}
       header={
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          <QuickRuleButton />
           <ProviderButton />
         </Box>
       }

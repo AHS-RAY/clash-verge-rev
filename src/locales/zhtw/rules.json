@@ -8,6 +8,31 @@
         "update": "更新"
       }
     },
+    "quickRule": {
+      "trigger": "快速規則",
+      "title": "快速規則",
+      "description": "為網域或 IP 一鍵新增使用代理或直連的規則。規則寫入全域擴充覆寫配置（Merge）的 prepend-rules，優先於訂閱規則生效。",
+      "form": {
+        "target": "網域或 IP",
+        "targetPlaceholder": "example.com 或 1.2.3.4",
+        "proxy": "使用代理",
+        "direct": "不使用代理",
+        "proxyGroup": "代理群組"
+      },
+      "actions": {
+        "add": "新增規則"
+      },
+      "list": {
+        "title": "已新增的規則",
+        "empty": "尚無快速規則"
+      },
+      "feedback": {
+        "invalidTarget": "請輸入有效的網域或 IP",
+        "duplicate": "此規則已存在",
+        "saved": "快速規則已更新",
+        "parseFailed": "無法讀取全域擴充覆寫配置（Merge），請先修復後再新增規則"
+      }
+    },
     "title": "規則"
   },
   "feedback": {

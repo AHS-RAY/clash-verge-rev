@@ -40,6 +40,7 @@
 <details>
 <summary><strong> ✨ 新增功能 </strong></summary>
 
+- 新增规则页「快速规则」：为域名或 IP 一键设置使用代理或直连
 
 </details>
 
